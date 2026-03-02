@@ -1,0 +1,244 @@
+{
+  "scenarios": [
+    {
+      "id": "code-review-1",
+      "category": "technical",
+      "title": "Code Review - 接受建议",
+      "description": "在 code review 中接受同事的建议，讨论代码改进",
+      "roles": {
+        "you": "开发者",
+        "other": "高级工程师，正在 review 你的代码"
+      },
+      "context": "你提交了一个 PR，同事在 code review 中给了你一些建议",
+      "goals": [
+        "学会接受建设性反馈",
+        "用英语讨论代码细节",
+        "学习如何礼貌地回应建议"
+      ]
+    },
+    {
+      "id": "code-review-2",
+      "category": "technical",
+      "title": "Code Review - 提出建议",
+      "description": "在 code review 中给你的同事提出代码改进建议",
+      "roles": {
+        "you": "高级工程师",
+        "other": "初级工程师，提交了需要 review 的代码"
+      },
+      "context": "你正在 review 同事的代码，需要给出改进建议",
+      "goals": [
+        "学习如何给出建设性的代码建议",
+        "用专业但友好的语气表达",
+        "解释为什么需要改进"
+      ]
+    },
+    {
+      "id": "bug-report-1",
+      "category": "technical",
+      "title": "Bug Report - 报告问题",
+      "description": "向团队报告一个 bug，包括复现步骤和环境信息",
+      "roles": {
+        "you": "发现 bug 的开发者",
+        "other": "负责该模块的工程师"
+      },
+      "context": "你在测试中发现了 bug，需要向负责人报告",
+      "goals": [
+        "清晰描述 bug 的表现",
+        "提供完整的复现步骤",
+        "提供相关环境信息"
+      ]
+    },
+    {
+      "id": "bug-report-2",
+      "category": "technical",
+      "title": "Bug Report - 询问状态",
+      "description": "询问之前报告的 bug 的修复状态",
+      "roles": {
+        "you": "开发者",
+        "other": "PM 或负责该 bug 的工程师"
+      },
+      "context": "你之前报告了一个 bug，想知道修复进度",
+      "goals": [
+        "礼貌地询问进度",
+        "了解优先级和时间线",
+        "提供可能的帮助"
+      ]
+    },
+    {
+      "id": "technical-discussion-1",
+      "category": "technical",
+      "title": "技术方案讨论",
+      "description": "与团队讨论新功能的技术实现方案",
+      "roles": {
+        "you": "开发者",
+        "other": "Tech Lead"
+      },
+      "context": "你需要和 Tech Lead 讨论新功能的技术方案",
+      "goals": [
+        "清晰地解释技术方案",
+        "讨论方案优缺点",
+        "做出技术决策"
+      ]
+    },
+    {
+      "id": "technical-discussion-2",
+      "category": "technical",
+      "title": "API 设计讨论",
+      "description": "与后端讨论 API 接口设计",
+      "roles": {
+        "you": "前端开发者",
+        "other": "后端工程师"
+      },
+      "context": "你们需要设计一个新的 API 接口",
+      "goals": [
+        "讨论 API 参数设计",
+        "明确返回数据格式",
+        "协调前后端约定"
+      ]
+    },
+    {
+      "id": "documentation-1",
+      "category": "technical",
+      "title": "写 README",
+      "description": "用英语为项目编写 README 文档",
+      "roles": {
+        "you": "项目维护者",
+        "other": "（无，写作练习）"
+      },
+      "context": "你需要为一个新项目写英文 README",
+      "goals": [
+        "学习 README 常用结构和表达",
+        "练习技术写作",
+        "掌握项目描述的规范写法"
+      ]
+    },
+    {
+      "id": "meeting-1",
+      "category": "workplace",
+      "title": "团队会议发言",
+      "description": "在团队周会上汇报工作进展",
+      "roles": {
+        "you": "开发者",
+        "other": "团队成员和 manager"
+      },
+      "context": "每周一次的团队例会，轮到你汇报工作",
+      "goals": [
+        "简洁地汇报进展",
+        "说明遇到的阻塞问题",
+        "提出需要的帮助"
+      ]
+    },
+    {
+      "id": "meeting-2",
+      "category": "workplace",
+      "title": "项目启动会",
+      "description": "参与新项目的 kickoff 会议",
+      "roles": {
+        "you": "开发团队成员",
+        "other": "PM, Designer, Tech Lead"
+      },
+      "context": "新项目启动，各角色讨论项目目标和计划",
+      "goals": [
+        "理解项目目标",
+        "提出技术和资源问题",
+        "确认时间线和里程碑"
+      ]
+    },
+    {
+      "id": "email-1",
+      "category": "workplace",
+      "title": "请求帮助邮件",
+      "description": "写邮件请求其他团队或同事的帮助",
+      "roles": {
+        "you": "开发者",
+        "other": "其他团队的工程师"
+      },
+      "context": "你需要请求其他团队的技术支持",
+      "goals": [
+        "正式但友好的语气",
+        "清晰说明请求内容",
+        "提供足够的上下文"
+      ]
+    },
+    {
+      "id": "email-2",
+      "category": "workplace",
+      "title": "请假邮件",
+      "description": "写邮件向 manager 请假",
+      "roles": {
+        "you": "开发者",
+        "other": "Manager"
+      },
+      "context": "你身体不适需要请假一天",
+      "goals": [
+        "正式的职业邮件格式",
+        "简洁明了地说明原因",
+        "安排好工作的交接"
+      ]
+    },
+    {
+      "id": "one-on-one-1",
+      "category": "workplace",
+      "title": "1:1 会议 - 职业发展",
+      "description": "与 manager 的 1:1 讨论职业发展",
+      "roles": {
+        "you": "开发者",
+        "other": "Manager"
+      },
+      "context": "定期的 1:1 会议，你想讨论职业发展",
+      "goals": [
+        "表达职业发展期望",
+        "寻求反馈和建议",
+        "讨论学习机会"
+      ]
+    },
+    {
+      "id": "one-on-one-2",
+      "category": "workplace",
+      "title": "1:1 会议 - 反馈问题",
+      "description": "与 manager 的 1:1 会议，反馈工作中遇到的问题",
+      "roles": {
+        "you": "开发者",
+        "other": "Manager"
+      },
+      "context": "你想向 manager 反馈团队协作中遇到的问题",
+      "goals": [
+        "建设性地提出问题",
+        "提出解决方案建议",
+        "保持积极的氛围"
+      ]
+    },
+    {
+      "id": "standup-1",
+      "category": "workplace",
+      "title": "每日站会",
+      "description": "在每日站会上汇报昨日完成和今日计划",
+      "roles": {
+        "you": "开发者",
+        "other": "团队成员"
+      },
+      "context": "每天早上 10 分钟的 standup meeting",
+      "goals": [
+        "简洁高效地汇报",
+        "识别可能的阻塞",
+        "与团队协调依赖"
+      ]
+    },
+    {
+      "id": "cross-team-1",
+      "category": "workplace",
+      "title": "跨团队沟通",
+      "description": "与其他团队协调项目依赖和进度",
+      "roles": {
+        "you": "开发者",
+        "other": "其他团队的 tech lead"
+      },
+      "context": "你的项目依赖其他团队的工作，需要协调进度",
+      "goals": [
+        "清晰说明依赖关系",
+        "协商时间和里程碑",
+        "建立良好的合作关系"
+      ]
+    }
+  ]
+}

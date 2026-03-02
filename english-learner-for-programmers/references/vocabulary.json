@@ -1,0 +1,648 @@
+{
+  "vocabulary": [
+    {
+      "word": "prerequisites",
+      "meaning_cn": "前置条件，先决条件",
+      "level": 1,
+      "category": "technical",
+      "example": "Make sure you have Node.js installed as a prerequisite."
+    },
+    {
+      "word": "installation",
+      "meaning_cn": "安装",
+      "level": 1,
+      "category": "technical",
+      "example": "Follow the installation guide to set up the environment."
+    },
+    {
+      "word": "configuration",
+      "meaning_cn": "配置",
+      "level": 1,
+      "category": "technical",
+      "example": "You can customize the behavior through the configuration file."
+    },
+    {
+      "word": "dependencies",
+      "meaning_cn": "依赖项",
+      "level": 1,
+      "category": "technical",
+      "example": "This package has several dependencies that need to be installed."
+    },
+    {
+      "word": "documentation",
+      "meaning_cn": "文档",
+      "level": 1,
+      "category": "technical",
+      "example": "Please refer to the documentation for more details."
+    },
+    {
+      "word": "troubleshooting",
+      "meaning_cn": "故障排除",
+      "level": 2,
+      "category": "technical",
+      "example": "Check the troubleshooting section if you encounter issues."
+    },
+    {
+      "word": "deprecated",
+      "meaning_cn": "已弃用的",
+      "level": 2,
+      "category": "technical",
+      "example": "This API is deprecated, please use the new version instead."
+    },
+    {
+      "word": "implement",
+      "meaning_cn": "实现",
+      "level": 1,
+      "category": "technical",
+      "example": "We need to implement the new feature by next week."
+    },
+    {
+      "word": "optimize",
+      "meaning_cn": "优化",
+      "level": 1,
+      "category": "technical",
+      "example": "We should optimize the database queries for better performance."
+    },
+    {
+      "word": "debug",
+      "meaning_cn": "调试",
+      "level": 1,
+      "category": "technical",
+      "example": "I'm trying to debug this issue but can't find the root cause."
+    },
+    {
+      "word": "deploy",
+      "meaning_cn": "部署",
+      "level": 1,
+      "category": "technical",
+      "example": "We'll deploy the new version to production tonight."
+    },
+    {
+      "word": "migrate",
+      "meaning_cn": "迁移",
+      "level": 2,
+      "category": "technical",
+      "example": "We need to migrate the data to the new system."
+    },
+    {
+      "word": "repository",
+      "meaning_cn": "仓库",
+      "level": 1,
+      "category": "technical",
+      "example": "Clone the repository to your local machine."
+    },
+    {
+      "word": "branch",
+      "meaning_cn": "分支",
+      "level": 1,
+      "category": "technical",
+      "example": "Create a new branch for your feature."
+    },
+    {
+      "word": "merge",
+      "meaning_cn": "合并",
+      "level": 1,
+      "category": "technical",
+      "example": "I'll merge the pull request after review."
+    },
+    {
+      "word": "resolve",
+      "meaning_cn": "解决",
+      "level": 1,
+      "category": "technical",
+      "example": "This PR resolves the issue #123."
+    },
+    {
+      "word": "maintain",
+      "meaning_cn": "维护",
+      "level": 1,
+      "category": "technical",
+      "example": "We need to maintain backward compatibility."
+    },
+    {
+      "word": "refactor",
+      "meaning_cn": "重构",
+      "level": 2,
+      "category": "technical",
+      "example": "Let's refactor this function to make it cleaner."
+    },
+    {
+      "word": "scalable",
+      "meaning_cn": "可扩展的",
+      "level": 2,
+      "category": "technical",
+      "example": "We need to design a scalable architecture."
+    },
+    {
+      "word": "robust",
+      "meaning_cn": "健壮的",
+      "level": 2,
+      "category": "technical",
+      "example": "The error handling makes the system more robust."
+    },
+    {
+      "word": "execute",
+      "meaning_cn": "执行",
+      "level": 1,
+      "category": "technical",
+      "example": "Execute the script to generate the report."
+    },
+    {
+      "word": "parameter",
+      "meaning_cn": "参数",
+      "level": 1,
+      "category": "technical",
+      "example": "This function takes two parameters."
+    },
+    {
+      "word": "returns",
+      "meaning_cn": "返回",
+      "level": 1,
+      "category": "technical",
+      "example": "The function returns a boolean value."
+    },
+    {
+      "word": "handle",
+      "meaning_cn": "处理",
+      "level": 1,
+      "category": "technical",
+      "example": "This middleware handles authentication."
+    },
+    {
+      "word": "validate",
+      "meaning_cn": "验证",
+      "level": 1,
+      "category": "technical",
+      "example": "We need to validate the user input."
+    },
+    {
+      "word": "retrieve",
+      "meaning_cn": "获取",
+      "level": 2,
+      "category": "technical",
+      "example": "The API retrieves data from the database."
+    },
+    {
+      "word": "initialize",
+      "meaning_cn": "初始化",
+      "level": 2,
+      "category": "technical",
+      "example": "Initialize the variable before using it."
+    },
+    {
+      "word": "override",
+      "meaning_cn": "重写",
+      "level": 2,
+      "category": "technical",
+      "example": "You can override this method in the subclass."
+    },
+    {
+      "word": "encapsulate",
+      "meaning_cn": "封装",
+      "level": 2,
+      "category": "technical",
+      "example": "We should encapsulate the logic in a separate module."
+    },
+    {
+      "word": "asynchronous",
+      "meaning_cn": "异步的",
+      "level": 2,
+      "category": "technical",
+      "example": "This is an asynchronous operation."
+    },
+    {
+      "word": "compatibility",
+      "meaning_cn": "兼容性",
+      "level": 2,
+      "category": "technical",
+      "example": "We need to ensure backward compatibility."
+    },
+    {
+      "word": "benchmark",
+      "meaning_cn": "基准测试",
+      "level": 3,
+      "category": "technical",
+      "example": "Let's run a benchmark to compare the performance."
+    },
+    {
+      "word": "latency",
+      "meaning_cn": "延迟",
+      "level": 2,
+      "category": "technical",
+      "example": "We need to reduce the network latency."
+    },
+    {
+      "word": "throughput",
+      "meaning_cn": "吞吐量",
+      "level": 3,
+      "category": "technical",
+      "example": "The system can handle high throughput."
+    },
+    {
+      "word": "redundant",
+      "meaning_cn": "冗余的",
+      "level": 3,
+      "category": "technical",
+      "example": "Remove the redundant code."
+    },
+    {
+      "word": "fallback",
+      "meaning_cn": "备选方案",
+      "level": 2,
+      "category": "technical",
+      "example": "Use this as a fallback when the primary method fails."
+    },
+    {
+      "word": "comprehensive",
+      "meaning_cn": "全面的",
+      "level": 2,
+      "category": "technical",
+      "example": "The documentation is comprehensive."
+    },
+    {
+      "word": "seamless",
+      "meaning_cn": "无缝的",
+      "level": 2,
+      "category": "technical",
+      "example": "We aim for a seamless user experience."
+    },
+    {
+      "word": "leverage",
+      "meaning_cn": "利用",
+      "level": 2,
+      "category": "technical",
+      "example": "We can leverage existing components."
+    },
+    {
+      "word": "streamline",
+      "meaning_cn": "简化",
+      "level": 3,
+      "category": "technical",
+      "example": "This will streamline our development process."
+    },
+    {
+      "word": "off-the-shelf",
+      "meaning_cn": "现成的",
+      "level": 3,
+      "category": "technical",
+      "example": "We used an off-the-shelf solution."
+    },
+    {
+      "word": "cutting-edge",
+      "meaning_cn": "前沿的",
+      "level": 3,
+      "category": "technical",
+      "example": "We use cutting-edge technology."
+    },
+    {
+      "word": "straightforward",
+      "meaning_cn": "简单直接的",
+      "level": 2,
+      "category": "technical",
+      "example": "The setup is straightforward."
+    },
+    {
+      "word": "boilerplate",
+      "meaning_cn": "样板代码",
+      "level": 2,
+      "category": "technical",
+      "example": "This reduces boilerplate code."
+    },
+    {
+      "word": "workaround",
+      "meaning_cn": "变通方案",
+      "level": 2,
+      "category": "technical",
+      "example": "Here's a workaround for this bug."
+    },
+    {
+      "word": "reproduce",
+      "meaning_cn": "复现",
+      "level": 2,
+      "category": "technical",
+      "example": "Can you reproduce the issue?"
+    },
+    {
+      "word": "intermediate",
+      "meaning_cn": "中间的",
+      "level": 1,
+      "category": "technical",
+      "example": "Store the intermediate result."
+    },
+    {
+      "word": "consecutive",
+      "meaning_cn": "连续的",
+      "level": 2,
+      "category": "technical",
+      "example": "Three consecutive failures."
+    },
+    {
+      "word": "instantiate",
+      "meaning_cn": "实例化",
+      "level": 2,
+      "category": "technical",
+      "example": "Instantiate the class to use it."
+    },
+    {
+      "word": "verbose",
+      "meaning_cn": "冗长的",
+      "level": 2,
+      "category": "technical",
+      "example": "The logging is too verbose."
+    },
+    {
+      "word": "concurrent",
+      "meaning_cn": "并发的",
+      "level": 2,
+      "category": "technical",
+      "example": "Handle concurrent requests."
+    },
+    {
+      "word": "recap",
+      "meaning_cn": "总结，概括",
+      "level": 1,
+      "category": "workplace",
+      "example": "Let me recap what we discussed."
+    },
+    {
+      "word": "deadline",
+      "meaning_cn": "截止日期",
+      "level": 1,
+      "category": "workplace",
+      "example": "We need to meet the deadline."
+    },
+    {
+      "word": "feedback",
+      "meaning_cn": "反馈",
+      "level": 1,
+      "category": "workplace",
+      "example": "I'd like to get your feedback on this."
+    },
+    {
+      "word": "stakeholder",
+      "meaning_cn": "利益相关者",
+      "level": 2,
+      "category": "workplace",
+      "example": "We need to align with all stakeholders."
+    },
+    {
+      "word": "deliverable",
+      "meaning_cn": "交付物",
+      "level": 2,
+      "category": "workplace",
+      "example": "List all the deliverables for this project."
+    },
+    {
+      "word": "bandwidth",
+      "meaning_cn": "带宽（指时间/精力）",
+      "level": 2,
+      "category": "workplace",
+      "example": "I don't have the bandwidth to take on more work."
+    },
+    {
+      "word": "pipeline",
+      "meaning_cn": "流程，pipeline",
+      "level": 2,
+      "category": "workplace",
+      "example": "We have several items in the pipeline."
+    },
+    {
+      "word": "onboard",
+      "meaning_cn": "入职",
+      "level": 2,
+      "category": "workplace",
+      "example": "We're onboarding a new team member next week."
+    },
+    {
+      "word": "synergy",
+      "meaning_cn": "协同",
+      "level": 2,
+      "category": "workplace",
+      "example": "We can create synergy between teams."
+    },
+    {
+      "word": "pivot",
+      "meaning_cn": "转向",
+      "level": 2,
+      "category": "workplace",
+      "example": "The company decided to pivot."
+    },
+    {
+      "word": "leverage",
+      "meaning_cn": "利用（资源/优势）",
+      "level": 2,
+      "category": "workplace",
+      "example": "Let's leverage our existing relationships."
+    },
+    {
+      "word": "actionable",
+      "meaning_cn": "可执行的",
+      "level": 2,
+      "category": "workplace",
+      "example": "We need actionable insights."
+    },
+    {
+      "word": "proactive",
+      "meaning_cn": "主动的",
+      "level": 2,
+      "category": "workplace",
+      "example": "Be more proactive in communication."
+    },
+    {
+      "word": "drill down",
+      "meaning_cn": "深入分析",
+      "level": 2,
+      "category": "workplace",
+      "example": "Let's drill down into the details."
+    },
+    {
+      "word": "follow up",
+      "meaning_cn": "跟进",
+      "level": 1,
+      "category": "workplace",
+      "example": "I'll follow up with them tomorrow."
+    },
+    {
+      "word": "circle back",
+      "meaning_cn": "回头再谈",
+      "level": 2,
+      "category": "workplace",
+      "example": "Let's circle back on this later."
+    },
+    {
+      "word": "touch base",
+      "meaning_cn": "联系，碰头",
+      "level": 2,
+      "category": "workplace",
+      "example": "Let's touch base next week."
+    },
+    {
+      "word": "loop in",
+      "meaning_cn": "拉入（相关人）",
+      "level": 2,
+      "category": "workplace",
+      "example": "Please loop in the PM for this discussion."
+    },
+    {
+      "word": "sign off",
+      "meaning_cn": "批准",
+      "level": 2,
+      "category": "workplace",
+      "example": "We need to get sign off from the manager."
+    },
+    {
+      "word": "kick off",
+      "meaning_cn": "启动",
+      "level": 2,
+      "category": "workplace",
+      "example": "Let's kick off the project tomorrow."
+    },
+    {
+      "word": "take ownership",
+      "meaning_cn": "承担责任",
+      "level": 2,
+      "category": "workplace",
+      "example": "Please take ownership of this task."
+    },
+    {
+      "word": "aligned",
+      "meaning_cn": "对齐的",
+      "level": 2,
+      "category": "workplace",
+      "example": "We're aligned on the goals."
+    },
+    {
+      "word": "bottleneck",
+      "meaning_cn": "瓶颈",
+      "level": 2,
+      "category": "workplace",
+      "example": "This is a major bottleneck."
+    },
+    {
+      "word": "scope",
+      "meaning_cn": "范围",
+      "level": 1,
+      "category": "workplace",
+      "example": "We need to define the project scope."
+    },
+    {
+      "word": "prioritize",
+      "meaning_cn": "优先处理",
+      "level": 1,
+      "category": "workplace",
+      "example": "Let's prioritize the tasks."
+    },
+    {
+      "word": "estimate",
+      "meaning_cn": "估计",
+      "level": 1,
+      "category": "workplace",
+      "example": "Can you give an estimate?"
+    },
+    {
+      "word": "review",
+      "meaning_cn": "审查",
+      "level": 1,
+      "category": "workplace",
+      "example": "Please review my code."
+    },
+    {
+      "word": "approve",
+      "meaning_cn": "批准",
+      "level": 1,
+      "category": "workplace",
+      "example": "The manager needs to approve this."
+    },
+    {
+      "word": "address",
+      "meaning_cn": "处理（问题）",
+      "level": 1,
+      "category": "workplace",
+      "example": "We need to address this issue."
+    },
+    {
+      "word": "involve",
+      "meaning_cn": "涉及",
+      "level": 1,
+      "category": "workplace",
+      "example": "This project involves multiple teams."
+    },
+    {
+      "word": "achieve",
+      "meaning_cn": "达成",
+      "level": 1,
+      "category": "workplace",
+      "example": "We need to achieve our target."
+    },
+    {
+      "word": "identify",
+      "meaning_cn": "识别",
+      "level": 1,
+      "category": "workplace",
+      "example": "Let's identify the key problems."
+    },
+    {
+      "word": "ensure",
+      "meaning_cn": "确保",
+      "level": 1,
+      "category": "workplace",
+      "example": "We need to ensure quality."
+    },
+    {
+      "word": "facilitate",
+      "meaning_cn": "促进",
+      "level": 2,
+      "category": "workplace",
+      "example": "This tool facilitates collaboration."
+    },
+    {
+      "word": "mitigate",
+      "meaning_cn": "缓解",
+      "level": 2,
+      "category": "workplace",
+      "example": "We need to mitigate the risks."
+    },
+    {
+      "word": "formulate",
+      "meaning_cn": "制定",
+      "level": 3,
+      "category": "workplace",
+      "example": "We need to formulate a plan."
+    },
+    {
+      "word": "articulate",
+      "meaning_cn": "清晰地表达",
+      "level": 3,
+      "category": "workplace",
+      "example": "Please articulate your requirements."
+    },
+    {
+      "word": "collaborate",
+      "meaning_cn": "合作",
+      "level": 1,
+      "category": "workplace",
+      "example": "Let's collaborate on this project."
+    },
+    {
+      "word": "coordinate",
+      "meaning_cn": "协调",
+      "level": 1,
+      "category": "workplace",
+      "example": "We need to coordinate with other teams."
+    },
+    {
+      "word": "delegate",
+      "meaning_cn": "委托",
+      "level": 2,
+      "category": "workplace",
+      "example": "Learn to delegate tasks effectively."
+    },
+    {
+      "word": "implement",
+      "meaning_cn": "实施",
+      "level": 1,
+      "category": "workplace",
+      "example": "We'll implement this feature next quarter."
+    }
+  ]
+}
